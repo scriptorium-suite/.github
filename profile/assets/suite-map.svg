@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="560" viewBox="0 0 1280 560" role="img" aria-labelledby="title desc">
+  <title id="title">Scriptorium Suite repository map</title>
+  <desc id="desc">The organization groups the Scriptorium entry point, shared spec, literature component, memory engine, and optional presentation component.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#020617"/><stop offset="1" stop-color="#1e1b4b"/></linearGradient>
+    <style>.title{font:700 42px ui-sans-serif,system-ui;fill:#f8fafc}.sub{font:500 19px ui-sans-serif,system-ui;fill:#cbd5e1}.box{fill:#0f172a;stroke:#334155;stroke-width:1.5;rx:24}.main{fill:#172554;stroke:#38bdf8;stroke-width:2;rx:28}.label{font:700 21px ui-sans-serif,system-ui;fill:#e0f2fe}.body{font:500 15px ui-sans-serif,system-ui;fill:#cbd5e1}.small{font:600 13px ui-sans-serif,system-ui;fill:#93c5fd}</style>
+  </defs>
+  <rect width="1280" height="560" fill="url(#bg)"/>
+  <text x="70" y="76" class="title">Scriptorium Suite</text>
+  <text x="70" y="110" class="sub">One product entry point, independent components, and shared contracts.</text>
+  <rect x="420" y="160" width="440" height="120" class="main"/>
+  <text x="470" y="210" class="label">scriptorium</text>
+  <text x="470" y="242" class="body">main product entry point, installer, workspace lifecycle</text>
+  <rect x="70" y="340" width="250" height="110" class="box"/>
+  <text x="105" y="385" class="label">scriptorium-spec</text><text x="105" y="416" class="body">schemas and conventions</text>
+  <rect x="365" y="340" width="250" height="110" class="box"/>
+  <text x="400" y="385" class="label">steward</text><text x="400" y="416" class="body">literature/source workflow</text>
+  <rect x="660" y="340" width="250" height="110" class="box"/>
+  <text x="695" y="385" class="label">Provenance</text><text x="695" y="416" class="body">local project memory</text>
+  <rect x="955" y="340" width="250" height="110" class="box"/>
+  <text x="990" y="385" class="label">Slides component</text><text x="990" y="416" class="body">optional downstream deliverables</text>
+  <path d="M640 280 L195 340" stroke="#38bdf8" stroke-width="3" fill="none"/>
+  <path d="M640 280 L490 340" stroke="#38bdf8" stroke-width="3" fill="none"/>
+  <path d="M640 280 L785 340" stroke="#38bdf8" stroke-width="3" fill="none"/>
+  <path d="M640 280 L1080 340" stroke="#38bdf8" stroke-width="3" fill="none"/>
+  <text x="70" y="510" class="small">Use the main Scriptorium repository first. Install components only when your workflow needs them.</text>
+</svg>
