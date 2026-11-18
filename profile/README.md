@@ -8,7 +8,7 @@
 - **Public entry point:** [Scriptorium v0.2.0](https://github.com/scriptorium-suite/scriptorium/releases/tag/v0.2.0).
 - **Components:** [Spec](https://github.com/scriptorium-suite/scriptorium-spec), [Provenance and Capture](https://github.com/foxsplendid/Provenance), [Steward](https://github.com/scriptorium-suite/steward), and [Lectern](https://github.com/foxsplendid/Lectern).
 - **Experimental work:** evidence-loop and evidence-contract development branches, plus Lectern's Windows handoff candidate. These are unreleased.
-- **Historical snapshots:** `archive/2026-11-06/` tags preserve prior publishing and candidate states; the unmerged Spec candidate branch is retained.
+- **Historical snapshots:** `archive/2026-11-06/` tags preserve prior publishing and candidate states. The former Spec candidate is preserved at its archive tag.
 - **Historical reference:** [Engram history](https://github.com/foxsplendid/Provenance/tree/history/engram).
 
 
