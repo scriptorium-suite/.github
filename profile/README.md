@@ -5,11 +5,11 @@
 
 [Version guide: published baselines, development lines and historical archives](https://github.com/scriptorium-suite/scriptorium/blob/main/VERSION_GUIDE.md)
 
-- **Public entry point:** [Scriptorium](https://github.com/scriptorium-suite/scriptorium), published baseline v0.2.0.
-- **Components:** [Spec](https://github.com/scriptorium-suite/scriptorium-spec), [Provenance and Capture](https://github.com/foxsplendid/Provenance), [Steward](https://github.com/scriptorium-suite/steward), and [Lectern](https://github.com/foxsplendid/Academic-Slides-Agent).
+- **Public entry point:** [Scriptorium v0.2.0](https://github.com/scriptorium-suite/scriptorium/releases/tag/v0.2.0).
+- **Components:** [Spec](https://github.com/scriptorium-suite/scriptorium-spec), [Provenance and Capture](https://github.com/foxsplendid/Provenance), [Steward](https://github.com/scriptorium-suite/steward), and [Lectern](https://github.com/foxsplendid/Lectern).
 - **Experimental work:** evidence-loop and evidence-contract development branches, plus Lectern's Windows handoff candidate. These are unreleased.
 - **Historical snapshots:** `archive/2026-11-06/` tags preserve prior publishing and candidate states; the unmerged Spec candidate branch is retained.
-- **Retired references:** [Engram](https://github.com/foxsplendid/Engram) and [PPT-Agent](https://github.com/foxsplendid/PPT-Agent).
+- **Historical reference:** [Engram history](https://github.com/foxsplendid/Provenance/tree/history/engram).
 
 
 Scriptorium Suite is a local-first toolkit for long-running work with AI agents. It helps users keep project goals, sources, sessions, decisions, evidence, and deliverables in a recoverable local workspace instead of scattering them across chats and folders.
@@ -18,7 +18,7 @@ Scriptorium Suite is a local-first toolkit for long-running work with AI agents.
 
 ## Start here
 
-The main product entry point is [scriptorium](https://github.com/scriptorium-suite/scriptorium). Start there if you want to try the suite, understand the current stable workflow, or evaluate the project as a public product.
+The main product entry point is [Scriptorium v0.2.0](https://github.com/scriptorium-suite/scriptorium/tree/v0.2.0). Start there if you want to try the suite, understand the current stable workflow, or evaluate the project as a public product.
 
 The suite is intentionally modular. Components remain independently usable, but they share file contracts so they can work together when installed through Scriptorium.
 
@@ -28,7 +28,7 @@ The suite is intentionally modular. Components remain independently usable, but 
 | [scriptorium-spec](https://github.com/scriptorium-suite/scriptorium-spec) | Shared JSON Schemas, examples, and conventions for suite interoperability. |
 | [steward](https://github.com/scriptorium-suite/steward) | Literature and source workflow component for reference-library governance and handoff files. |
 | [Provenance](https://github.com/foxsplendid/Provenance) | Local project memory, ingestion, search, context capsules, MCP, and reviewable writeback. |
-| [Academic-Slides-Agent](https://github.com/foxsplendid/Academic-Slides-Agent) | Optional presentation and reporting component direction. |
+| [Lectern](https://github.com/foxsplendid/Lectern) | Optional presentation and reporting component direction. |
 
 ## Current product boundary
 
